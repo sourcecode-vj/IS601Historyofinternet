@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.o">
+                <title>introduction page</title>
+                <style>
+                    .container{
+                        margin: 0px;
+                        width: 120vw;
+                        height: 100vh;
+                        font-family: "Arial";
+                        font-weight: bold;
+
+                        display: grid;
+
+                        grid-template-rows: 120px 1fr 1fr 100px;
+                        grid-template-columns: repeat(3, 1fr);
+
+                    }
+                    .container div{
+                        padding: 10px;
+                        border: 1px solid black;
+                    }
+                    .header {
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        background-color: aqua;
+                        color: black;
+                    }
+                    .header ul li{
+                        text-align: right;
+                        color: white;
+                    }
+                    .content-large{
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 2;
+                        grid-row-end: 4;
+                        font-size: 22px;
+                        color: black;
+                        background-color: aliceblue;
+                    }
+
+                    body{
+                        background: white;
+                    }
+                    .footer{
+                        grid-column-start: 1;
+                        grid-column-end: 5;
+                        background-color: darkslategrey;
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    .footer ul li{
+                        color: ghostwhite;
+                    }
+
+                </style>
+            </head>
+            <body>
+        <div class="container">
+            <div class="header" >
+                <h1>
+                    HISTORY OF THE INTERNET
+                </h1>
+            </div>
+
+            <div class="content-large">
+
+                <h4> INVENTION OF INTERNET :</h4>
+
+                <p>The Internet is the finest technology of all time. It enables millions of people with their own personal computers to connect to mail, newsgroups and chat boxes. It is the largest place used for shopping as well as for daily life. Internet is the Telecommunication link for the 21st century. Due to the internet people can make their daily lives easy. The Internet was started 50 years ago as a government weapon in cold wars. The Internet generated 301 million dollars in business and responsible for one-third of the economy.
+                    In 1962 JCR Licklider of MIT gave an idea of connecting computers all over the world and it can be used for sharing data based on the concept called “Galactic network concept”.  Then in the same year Paul Baran came up with the idea of message transmitting in the network.
+                    After that came the development of the ARPANET which was developed by Robert Taylor. ARPANET became the technical core of what would become the Internet, and a primary tool in developing the technologies used. Then in 1973, Bob Kahn wrote the rules for TCP/IP protocol. It was installed in ARPANET in 1983. In 1990, Tim Berners-Lee developed the World Wide Web.</p>
+
+                <a href="Web2.html">BROWSER WARS</a>
+
+            </div>
+            <div class="footer">
+                Author:Varun Jagannathan
+            </div>
+    </div>
+</body>
+</html>
